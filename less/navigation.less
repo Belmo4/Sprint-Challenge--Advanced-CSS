@@ -3,9 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
-
+   
 
     h1{
         font-size: 4rem;
@@ -17,9 +15,16 @@
         .display(center, wrap);
         justify-content: space-between;
         padding: 0px 30%;
+        @media @mobile {
+            color: red;
+         }
+      
+
     
         a{
             .fontDecorate(none, 1.7rem, @river-bend, none);
         }
+
+ 
     }
 }

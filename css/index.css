@@ -178,6 +178,11 @@ p {
   justify-content: space-between;
   padding: 0px 30%;
 }
+@media (max-width: 500px) {
+  .navigation nav {
+    color: red;
+  }
+}
 .navigation nav a {
   text-decoration: none;
   color: #454A59;
@@ -195,7 +200,7 @@ footer {
   align-items: center;
 }
 .home .intro img {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -247,6 +252,12 @@ footer {
   background-color: #22283A;
   border-radius: 5px;
   border: 1px none none;
+  text-align: center;
+  width: 12rem;
+}
+.home .walk .walk-text .btn:hover {
+  color: #22283A;
+  background-color: white;
 }
 .home .walk .walk-img {
   width: 46%;
